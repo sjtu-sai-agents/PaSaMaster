@@ -15,14 +15,6 @@
   <img src="assets/teaser.png" alt="PaSaMaster teaser" width="900">
 </div>
 
-## Resources
-
-| Resource | Link |
-|----------|------|
-| Website | [scimaster.bohrium.com/home](https://scimaster.bohrium.com/home) |
-| Paper | [arXiv:2605.14306](https://arxiv.org/pdf/2605.14306) |
-| CLI / MCP | [`scimaster-cli` on npm](https://www.npmjs.com/package/scimaster-cli?activeTab=readme) |
-
 ## Overview
 
 PaSaMaster is a self-evolving agentic literature retrieval system for high-quality scientific paper search and relevance ranking. It iteratively analyzes user intent, retrieves candidate papers, evaluates evidence, and produces relevance-scored recommendations grounded in real sources.
