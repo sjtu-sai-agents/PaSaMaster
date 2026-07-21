@@ -9,6 +9,7 @@
   <p>
     <a href="https://scimaster.bohrium.com/home">Website</a> |
     <a href="https://arxiv.org/pdf/2605.14306">arXiv Paper</a> |
+    <a href="https://huggingface.co/datasets/PaSaMaster/PaSaMaster_bench">BenchMark</a> |
     <a href="https://www.npmjs.com/package/scimaster-cli?activeTab=readme">CLI / MCP Tool</a>
   </p>
 
