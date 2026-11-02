@@ -1,0 +1,19 @@
+arxiv
+aiohttp
+beautifulsoup4
+httpx
+litellm
+numpy
+openai
+qwen-agent
+# Imported by qwen-agent's tool utilities during startup.
+soundfile
+rapidfuzz
+requests
+tenacity
+tiktoken
+tqdm
+lxml
+loguru
+
+# Install GPU model-serving dependencies separately in the serving environment.

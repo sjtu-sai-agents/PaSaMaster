@@ -1,0 +1,63 @@
+{
+    "use_local_search": false,
+    "use_sn": true,
+    "use_chunk": false,
+    "use_local_pdf": false,
+    "use_stream": false,
+    "ranker_use_stream": false,
+    "use_reasoner": true,
+    "meta_info_path": "",
+    "sn_access_key": "your sn access key",
+    "sn_get_ref_url": "https://<your-sn-host>/openapi/v1/paper/pass/titles/details?accessKey=",
+    "sn_search_paper_url": "https://<your-sn-host>/openapi/v1/paper/rag/pass/keyword",
+    "sn_get_paper_info_url": "https://<your-sn-host>/openapi/v1/paper/pass/titles/base",
+    "chunk_url": "http://<chunk-host>:<chunk-port>/",
+    "locate_section": false,
+    "timeout": 60,
+    "tool_model": "qwen3-30b",
+    "common_config": {
+        "summary_model_name": "qwen-flash",
+        "google_api_key": "your serper api key",
+        "JINA_API_KEYS": "your jina api key",
+        "proxy": {
+            "http_proxy": "http://<your-proxy-host>:<port>",
+            "https_proxy": "http://<your-proxy-host>:<port>"
+        },
+        "arxiv_search_url": "https://<your-arxiv-search-host>/search",
+        "meta_info_url": "http://<meta-info-host>:<port>/search_meta_info"
+    },
+    "model_config": {
+        "qwen-30b-train": {
+            "base_url": "https://<your-openai-compatible-endpoint>/v1",
+            "api_key": "your api key",
+            "model": "qwen-flash",
+            "tokenizer_path": "gpt2",
+            "model_type": "gpt"
+        },
+        "deepseek-v3.2": {
+            "base_url": "https://<your-openai-compatible-endpoint>/v1",
+            "api_key": "your api key",
+            "tokenizer_path": "gpt2",
+            "model_type": "gpt"
+        },
+        "qwen3-30b": {
+            "base_url": "http://<tool-model-host>:<port>/v1",
+            "api_key": "EMPTY",
+            "tokenizer_path": "/path/to/Qwen3-30B-A3B-Thinking-2507",
+            "model_type": "open"
+        },
+        "reason_rank": {
+            "base_url": "https://<your-reason-rank-endpoint>/v1",
+            "api_key": "your api key"
+        },
+        "qwen-flash": {
+            "base_url": "https://<your-openai-compatible-endpoint>/v1",
+            "api_key": "your api key",
+            "tokenizer_path": "/path/to/Qwen2.5-72B-Instruct",
+            "model_type": "open"
+        }
+    },
+    "metric_path": "/path/to/result/metric",
+    "use_reference_rag": false,
+    "use_local_cache": false
+}

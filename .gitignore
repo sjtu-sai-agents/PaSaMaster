@@ -1,0 +1,33 @@
+/results
+/data
+/checkpoints
+**/__pycache__
+**/.ipynb_checkpoints
+ckpt
+result
+create_dataset/pdf_temp
+datasets
+search_utils/data
+search_utils/optimize_utils/paper_cache
+*/data
+zyz
+*.log
+*.jpg
+**/output/*
+**/data/*
+**/result*
+/vscode
+
+# Private config / backups (contain real secrets, do not commit)
+config/config.local.json
+config/*.local.json
+**/*.bak
+**/*.bak.*
+.env
+.env.*
+.venv/
+
+# Optional local journal metrics and generated reasoner traces
+/config/journal_metainfo.jsonl
+reasoner_trace.json
+reasoner_stream.txt
